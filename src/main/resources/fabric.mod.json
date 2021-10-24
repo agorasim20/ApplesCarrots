@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "apples",
+  "version": "${version}",
+
+  "name": "Apples & Carrots",
+  "description": "Adds new special apples and carrots",
+  "authors": [
+    "agorasim20"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/apples-carrots"
+  },
+
+  "license": "Custom License",
+  "icon": "assets/apples/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "agorasim20.apples.ApplesAndCarrots"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
