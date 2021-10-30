@@ -14,7 +14,7 @@ public class CarrotsRegistry {
     public static final Item LAPIS_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Carrots.LAPIS_CARROT));
     public static final Item OBSIDIAN_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Carrots.OBSIDIAN_CARROT));
     public static final Item DIAMOND_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Carrots.DIAMOND_CARROT));
-    public static final Item NETHERITE_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Carrots.NETHERITE_CARROT));
+    public static final Item NETHERITE_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).fireproof().food(Carrots.NETHERITE_CARROT));
     public static final Item IRON_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Carrots.IRON_CARROT));
     public static final Item CREATIVE_CARROT = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Carrots.CREATIVE_CARROT));
     

@@ -14,7 +14,7 @@ public class NuggetsRegistry {
     public static final Item LAPIS_NUGGET = new Item(new Item.Settings().group(ApplesAndCarrots.ITEM_GROUP));
     public static final Item OBSIDIAN_NUGGET = new Item(new Item.Settings().group(ApplesAndCarrots.ITEM_GROUP));
     public static final Item DIAMOND_NUGGET = new Item(new Item.Settings().group(ApplesAndCarrots.ITEM_GROUP));
-    public static final Item NETHERITE_NUGGET = new Item(new Item.Settings().group(ApplesAndCarrots.ITEM_GROUP));
+    public static final Item NETHERITE_NUGGET = new Item(new Item.Settings().group(ApplesAndCarrots.ITEM_GROUP).fireproof());
     
     public static void init(){
         Registry.register(Registry.ITEM, new Identifier("apples", "coal_nugget"), COAL_NUGGET);

@@ -14,7 +14,7 @@ public class ApplesRegistry {
     public static final Item LAPIS_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Apples.LAPIS_APPLE));
     public static final Item OBSIDIAN_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Apples.OBSIDIAN_APPLE));
     public static final Item DIAMOND_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Apples.DIAMOND_APPLE));
-    public static final Item NETHERITE_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Apples.NETHERITE_APPLE));
+    public static final Item NETHERITE_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).fireproof().food(Apples.NETHERITE_APPLE));
     public static final Item IRON_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Apples.IRON_APPLE));
     public static final Item CREATIVE_APPLE = new Item(new Settings().group(ApplesAndCarrots.ITEM_GROUP).food(Apples.CREATIVE_APPLE));
 
