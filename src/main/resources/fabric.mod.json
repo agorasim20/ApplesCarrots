@@ -9,7 +9,9 @@
     "agorasim20"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/apples-carrots"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/apples-carrots",
+    "sources": "https://github.com/agorasim20/ApplesCarrots",
+    "issues": "https://github.com/agorasim20/ApplesCarrots/issues"
   },
 
   "license": "Custom License",
@@ -27,8 +29,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
